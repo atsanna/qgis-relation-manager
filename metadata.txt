@@ -1,0 +1,13 @@
+# metadata.txt
+[general]
+name=Relation Manager
+qgisMinimumVersion=3.0
+description=Plugin per esportare ed importare le relazioni di un progetto QGIS
+version=1.5
+author=Antonio Sanna
+email=atsanna@tiscali.it
+category=Plugins
+tags=relations,export,import,project
+homepage=https://github.com/atsanna/qgis-relation-manager
+experimental=False
+deprecated=False
