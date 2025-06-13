@@ -100,7 +100,7 @@ class RelationDialog(QDialog):
             self.relationsTable.setRowCount(0)
             self.relationsTable.setColumnCount(4)
             self.relationsTable.setHorizontalHeaderLabels([
-                'ID', 'Nome', 'Layer Padre', 'Layer Figlio'
+                'ID', 'Nome', 'Layer Figlio', 'Layer Padre'
             ])
             self.info_label.setText(
                 "Nessuna relazione trovata nel progetto corrente.\nUtilizza 'Importa Relazioni' per caricare relazioni da un file JSON.")
@@ -114,7 +114,7 @@ class RelationDialog(QDialog):
             self.relationsTable.setRowCount(len(relations))
             self.relationsTable.setColumnCount(4)
             self.relationsTable.setHorizontalHeaderLabels([
-                'ID', 'Nome', 'Layer Padre', 'Layer Figlio'
+                'ID', 'Nome', 'Layer Figlio', 'Layer Padre'
             ])
 
             for row, (rel_id, relation) in enumerate(relations.items()):
